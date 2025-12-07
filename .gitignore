@@ -1,0 +1,32 @@
+# --- Build Artifacts (What gradle creates) ---
+build/
+bin/
+out/
+
+# --- Gradle Caches ---
+.gradle/
+# Note: Keep 'gradlew' and 'gradlew.bat' but ignore local caches
+gradle/wrapper/gradle-wrapper.jar
+
+# --- IDE Settings (IntelliJ / Eclipse / VSCode) ---
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+
+# --- Minecraft Run Folder ---
+# This folder is created when you run "Client" testing.
+# It contains logs, saves, and screenshots you don't want on GitHub.
+run/
+run_server/
+logs/
+crash-reports/
+debug/
+
+# --- OS Junk Files ---
+.DS_Store
+Thumbs.db
